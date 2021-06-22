@@ -1,0 +1,289 @@
+Issue_Type,Given_Name,Expected_Name,Result_Count,Is_Place_Name,Expected_Distance
+False Positive,Fiescheralp - Eggishorn,Eggishorn,6,False,2049.16789915405
+No Results,"Tr&#252;bsee, Mt. Titlis",Tr&amp;uuml;bsee,3,False,350.85869247863
+False Positive,Nellim,Nellim,3,False,52958.7059803216
+No Results,"Tivoli Gardens, Copenhagen",Tivoli Hovedindgangen,2,False,960564.698308899
+False Positive,"London, United Kingdom",The Churchill Arms,47,True,5963.53066019785
+No Results,Lago Di Braies,Pragser Wildsee / Lago di Braies (Lago di Braies),0,False,30660.4594695606
+No Results,Wight Tea Company,Not_In_DB,0,False,
+No Results,Darjeeling Express,Not_In_DB,0,False,
+False Positive,Village Square Pizza,East Village Pizza,88,False,214.93053044675
+No Results,Martin Place Christmas Tree,Christmas Tree,39,False,142.437959270495
+False Positive,"Aarhus, Denmark",Aarhus,57,False,916.912079282838
+No Results,"Supertree Grove, Gardens by the Bay",Supertree Grove,0,False,1523.47534448392
+False Positive,Dubai,The Dubai Mall (دبي مول),76,True,556.074007708568
+No Results,Linnaean Living,Not_In_DB,0,False,
+False Positive,Ginza,Mercure Hotel Ginza Tokyo (メルキュールホテル銀座東京),214,False,328.678943385346
+No Results,Serra at La Birreria,Birreria at Eataly,3,False,11.6125457855728
+False Positive,Zion National Park,Zion National Park,6,False,401.657225175408
+No Results,Trona Pinnacles,Trona Pinnacles,0,False,8113.93882324776
+No Results,Lake District National Park,Lake District National Park,0,False,12991.395838665
+No Results,Al ula  &#1591;&#1606;&#1591;&#1608;&#1585;&#1577;,Al Ula (&#1575;&#1604;&#1593;&#1604;&#1575;),1,False,16119.0900232315
+No Results,Asuman UAE,Not_In_DB,0,False,
+No Results,Pulled,Pulled,0,False,553.375748841223
+No Results,Zou Zou Restaurant,Zouzou,4,False,119.944001556301
+No Results,Sycamore Falls,Not_In_DB,0,False,
+No Results,Stwlan Dam - Blaenau Ffestiniog,Stwlan Dam,0,False,1698.41751310653
+False Positive,Mount Snowdon,Snowdonia National Park,7,False,159.962854248048
+No Results,Ogwen Valley,Ogwen Valley Bunkhouse - Luxury Accommodation,0,False,6407.07566608821
+No Results,Snowdonia National Park,Snowdonia National Park,0,False,21369.6880713913
+No Results,Black Mountain Pass,Black Mountain Pass,0,False,6543.33507381947
+No Results,Pembrokeshire Coast National Park,Pembrokeshire Coast National Park,0,False,25387.444897938
+False Positive,Cuppa Flower,Cuppa Flower,1,False,2819.77050595682
+False Positive,ABHA,Abha (&#1571;&#1576;&#1607;&#1575;),2,False,1839.03677297111
+No Results,"Al-Ahsa, Saudi Arabia.",Not_In_DB,0,False,
+No Results,"Tabuk, Saudi Arabia",Tabuk City (&#1605;&#1583;&#1610;&#1606;&#1577; &#1578;&#1576;&#1608;&#1603;),0,False,2312.28470455414
+No Results,Al Ula,Al Ula (&#1575;&#1604;&#1593;&#1604;&#1575;),0,False,2888.521132717
+No Results,Ha&#39;il,Ha&#39;il (&#1581;&#1575;&#1574;&#1604;),0,False,1645.51064656416
+No Results,"Al-Rajhi Mosque, Hail",Mosque Alrajhi (&#1605;&#1587;&#1580;&#1583; &#1587;&#1604;&#1610;&#1605;&#1575;&#1606; &#1575;&#1604;&#1585;&#1575;&#1580;&#1581;&#1610;),1,False,2982.80872832495
+No Results,Jazan Saudi Arabia,Jazan City (&#1580;&#1575;&#1586;&#1575;&#1606;),0,False,501381.311727174
+No Results,Giovanni&#39;s of Covent Garden,Giovanni's,163,False,12.77570378492
+No Results,&#1576;&#1581;&#1610;&#1585;&#1577; &#1575;&#1604;&#1571;&#1589;&#1601;&#1585;     Alasfar Lake,Asfar Lake,0,False,3089.11456181244
+No Results,"Taif, Saudi Arabia",Taif (&#1575;&#1604;&#1591;&#1575;&#1574;&#1601;),0,False,1147.93941431142
+No Results,"Al Baha, Kingdom Of Saudi Arabia.",Al Baha Region (&#1605;&#1606;&#1591;&#1602;&#1577; &#1575;&#1604;&#1576;&#1575;&#1581;&#1577;),1,False,6247.04898992061
+No Results,Yanbu KSA,Yanbu City (&#1605;&#1583;&#1610;&#1606;&#1577; &#1610;&#1606;&#1576;&#1593;),0,False,42994.6398273045
+No Results,Dharan KSA,Dhahran (Ø§ÙØ¸ÙØ±Ø§Ù),0,False,7563.68460155432
+False Positive,Gili Air Island,Gili Air,30,False,723.81768284833
+No Results,Tirta Empul,Pura Tirtha Empul,1,False,285.382859542194
+False Positive,Tibumana waterfall,Tibumana Waterfall,2,False,4062.94734979958
+False Positive,Rice Terrace Tegalalang,Tegallalang Rice Terraces,16,False,84.9088719933813
+No Results,"Badshahi Mosque, Lahore, Pakistan",Badshahi Masjid,1,False,5258.75725421374
+No Results,"Astyp&#225;laia, Dhodhekanisos, Greece",Astypalaia (Αστυπάλαια),5,False,255.91730985149
+No Results,Pizzeria Ristorante Il Bordello,Il Bordelo,0,False,18.5726228190559
+No Results,Memories Aicha Luxury Camp,Memories Aicha Luxury Camp,0,False,11402.6033120063
+False Positive,"Cinque Terre, Italy",Cinque Terre,6,False,4313.87079606423
+False Positive,"DUMBO, Brooklyn",DUMBO,186,False,75.5173854432674
+False Positive,"Sibiu, Romania",Sibiu,20,False,1970.25705913128
+False Positive,Westminster Bridge,Westminster Bridge,13,True,805.676227782073
+No Results,Panorama Glass Lodge Iceland,Panorama Glass Lodge Hl&#237;n,0,False,91064.9784052078
+False Positive,Rothenburg ob der Tauber,Rothenburg ob der Tauber,6,False,485.548770027148
+False Positive,"Cobh, Ireland",Cobh,17,False,888.876460828733
+No Results,Grutas Tolantongo,Grutas Tolantongo,2,False,76478.6557478765
+False Positive,"Pula, Croatia","Pula, Croatia",38,False,1089.40399228152
+No Results,Giza Pyramids,Great Pyramids of Giza (أهرامات الجيزة),0,False,12632.7461214843
+No Results,Salar de Uyuni,Salar de uyuni,1,False,3412.4505515767
+No Results,Cafe C&#38;M,Not_In_DB,0,False,
+No Results,Park Hyatt Kyoto / &#12497;&#12540;&#12463; &#12495;&#12452;&#12450;&#12483;&#12488;&#20140;&#37117;,Park Hyatt Kyoto (&#12497;&#12540;&#12463;&#12495;&#12452;&#12450;&#12483;&#12488;&#20140;&#37117;),1,False,124.171743467585
+No Results,Wildseed Cafe at The Alkaff Mansion,Wildseed Cafe,0,False,12.5565750043674
+False Positive,Blue Lagoon Nusa Ceningan,Not_In_DB,4,False,
+No Results,Chapada dos Veadeiros,Parque Nacional da Chapada dos Veadeiros,0,False,12773.8924761535
+No Results,Grove Road,Not_In_DB,0,False,
+False Positive,"Cusco, Peru",Cusco,21,False,1038.36814527864
+False Positive,Machu Picchu,Machu Picchu,4,False,72957.3443889482
+No Results,Luigia - The Best of Italy,Luigia,0,False,77.8342300434713
+No Results,230 Fifth: Best Heated Rooftop Bar/Club/Restaurant In NYC,230 Fifth Rooftop Lounge,0,False,50.6066529290905
+No Results,Moynihan Train Hall at New York Penn Station,Moynihan Train Hall,4,False,0
+False Positive,MUSEUM OF ICE CREAM,Not_In_DB,98,False,
+No Results,"Serengeti National Park, Tanzania",Serengeti National Park,0,False,2997.13329660307
+No Results,"Pyramids of Gizah, Cairo, Egypt",Great Pyramids of Giza (أهرامات الجيزة),0,False,12264.6225255013
+No Results,JoJo&#8217;s Shake Bar,Jojo's Milk Bar,41,False,12.3075074169659
+No Results,Caught&#38;Bowled Micro Pub,Caught And Bowled,1,False,8.67495877510419
+No Results,"S&#233;rifos, Kikladhes, Greece",Serifos,0,False,1749.33450985531
+No Results,"Elaf&#243;nisos, Greece",Elafonisos (Ελαφόνησος),0,False,2537.42820070657
+No Results,Balos Beach Crete,"Balos Lagoon, Crete",0,False,32585.2585471031
+No Results,Koufonisia Islands,Not_In_DB,1,False,
+No Results,"M&#237;los, Kikladhes, Greece",Milos (&#924;&#942;&#955;&#959;&#962;),0,False,8696.58418866127
+No Results,"Elafonissi, Crete, Grece.",Elafonisos (Ελαφόνησος),0,False,175010.927927822
+False Positive,Karpathos Island,Karpathos (&#922;&#940;&#961;&#960;&#945;&#952;&#959;&#962;),21,False,198.446552832747
+No Results,3Fils,3 Fils Restaurant,0,False,11.4904023248657
+No Results,Il Passaggio,Not_In_DB,0,False,
+No Results,HUSH HUSH CHEFS,Hush Hush,0,False,5725767.83864904
+No Results,Kohantei Japanese Beef Kaiseki Restaurant,Not_In_DB,0,False,
+No Results,SLAB,Not_In_DB,0,False,
+No Results,Swiss&#244;tel Al Ghurair,Not_In_DB,60,False,
+No Results,Gloria Trattoria,Gloria by Big Mamma,1,False,17.5884807004112
+No Results,Paradise  61 Rupert Street Soho London W1D 7PW,Not_In_DB,0,False,
+False Positive,Burger &#38; Lobster,Burger & Lobster,62,False,1157.84826900904
+No Results,Imperial Treasure UK,Imperial Treasure Fine Chinese Cuisine,50,False,17.2070230267596
+No Results,Skyline Drive-in NYC,Skyline Drive-In Cinema,1,False,182.71114818942
+No Results,Angelina UAE,Angelina (أنجلينا),6,False,4.76385292846531
+No Results,amongst few,Amongst Few Café,0,False,528.868545741605
+No Results,Din Tai Fung AE - Mall of the Emirates,Din Tai Fung,0,False,7.0625649409088
+No Results,Bab al Mansour,Not_In_DB,10,False,
+No Results,Villa 515,Villa 515,0,False,6582220.48430923
+False Positive,"Kyoto, Japan",Kyoto (京都市),4,False,2088.48747099911
+No Results,AKC Museum Of The Dog in Queeny Park,American Kennel Club Museum of the Dog,0,False,1430533.08717055
+No Results,"Loch Ness, Urquhart Castle, Scotland",Urquhart Castle,1,False,99.5586346125582
+No Results,Glen Affric,Glen Affric,0,False,46715.6120390655
+No Results,"Algarve, Portugal.",Albufeira | Algarve - Portugal |,0,False,49076.1308448434
+No Results,The Alkemistry,Not_In_DB,351,False,
+No Results,Jebel Jais (Ras Al Khaimah) - Highest Point Of UAE,Jais Mountain جبل جيس,0,False,2686.21027446598
+No Results,"Donna Carmella, the Pointe Palm Jumeirah Dubai",Donna Carmela,0,False,128.102767999963
+No Results,DineNest,Dinenest,0,False,1630.22379206786
+No Results,POP Bakery,Not_In_DB,1,False,
+No Results,Ithaafushi - The Private Island,Not_In_DB,0,False,
+False Positive,Icon Outlet at The O2,ICON Outlet,7,False,99.5872808231793
+False Positive,"Hampstead, United Kingdom",Hampstead,5,False,892.665209835197
+No Results,The Christmas Shop,Not_In_DB,8,False,
+False Positive,Mr. Ji,Mr Ji,17,False,2890.53018878703
+No Results,"Chelsea, Manhattan",Chelsea,81,False,258.858608605838
+No Results,Grand Central-42nd Street Subway Station,MTA Subway - 42nd St/Grand Central (4/5/6/7/S),4,False,50.0313731024867
+No Results,Vanderbilt Hall At Grand Central,Grand Central Terminal,6,False,13.9292669092178
+No Results,Fingers Crossed,Not_In_DB,0,False,
+No Results,Jichan&#39;s Onigiri-ya,Jichan&#8217;s Japanese Rice Ball Shop,1,False,22.8102632422385
+No Results,Roma Italian Deli and Grocery,Roma Market Italian Deli,1,False,11.6690385498734
+No Results,Courage Bagels,Courage Bagels,0,False,2659.41167190979
+No Results,Angel Falls,Angel Falls,0,False,47207.8143549888
+No Results,Mirante Dona Marta,Mirante Dona Marta,0,False,27984.1078446386
+False Positive,"Chelsea, London",London Borough of Chelsea,49,False,988.7914452846
+No Results,"Hotel Danieli, a Luxury Collection Hotel, Venice",Hotel Danieli,0,False,34.5158933936357
+No Results,Keukenhof,Keukenhof,0,False,33036.5540949722
+No Results,"Little Venice, Mykonos",Little Venice (Μικρή Βενετία),82,False,140.088153940807
+No Results,Lancaster Road,Lancaster Road Coloured Houses,0,False,8427.83281050262
+False Positive,&#200;lan cafe Knightsbridge,Not_In_DB,94,False,
+False Positive,Hampstead Town,Hampstead Town Hall,39,False,626.598209355837
+No Results,"Po&#231;os de Caldas, Minas Gerais",Po&#231;os de Caldas,0,False,209283.959682726
+No Results,Fait Maison,Fait Maison,0,False,3467.2406891852
+No Results,"Wells, Somerset",Wells,18,False,398.944240704681
+False Positive,Ville de Colmar,Colmar,96,False,250.772129823639
+No Results,R&#246;mer,Römer,15,False,30.8146212381481
+No Results,Pele&#537; Castle,Castelul Pele&#537;,2,False,92.9972704552021
+False Positive,"Cambridge, Cambridgeshire",Mathematical Bridge,102,False,581.163324191772
+False Positive,Bas&#237;lica de la Sagrada Fam&#237;lia,Sagrada Família (Templo Expiatorio de la Sagrada Familia),10,False,25.5948629214898
+False Positive,Barcelona Cathedral,Catedral de Barcelona (Catedral de Santa Eulalia de Barcelona),191,False,66.8077154692684
+No Results,&#201;lan Cafe,El&#38;N,23,False,793.196264740877
+No Results,Victors Oxford,Victor's,76,False,192.99732891723
+False Positive,Venice Beach,Venice Beach,29,False,734.127339830369
+False Positive,"Bath, Somerset",Pickled Greens,102,False,493.496830559472
+False Positive,St John&#39;s Gate,Museum of the Order of St John,39,False,73.3368009179056
+No Results,"Winchester, Hampshire",Winchester,0,False,4807.27966689003
+False Positive,MASP - Museu de Arte de S&#227;o Paulo Assis Chateaubriand,São Paulo Museum of Art (Museu de Arte de São Paulo (MASP)),2,False,14.6429078906629
+No Results,Castle Sinclair Girnigoe,Castle Sinclair Girnigoe,0,False,1265.7280266571
+False Positive,Glenfinnan,Glenfinnan Monument & Viaduct Viewpoint,3,False,1264.94718792731
+No Results,Anantara Golden Triangle Elephant Camp &#38; Resort,Anantara Golden Triangle Resort &#38; Spa,1,False,9.71305426934617
+False Positive,Anantara Lawana Koh Samui Resort,Anantara Lawana Resort & Spa,9,False,13.6291932290107
+No Results,Qsar Al Sarab Desert Resort,Not_In_DB,1,False,
+No Results,Desert Island Resort &#38; Spa (Anantara) - Sir Bani Yas Island,Desert Island Resort & Spa (Anantara) - Sir Bani Yas Island,0,False,273243.977784768
+No Results,Anantara Sir Bani Yas Island Resorts,Desert Island Resort & Spa (Anantara) - Sir Bani Yas Island,0,False,1460.69941717546
+False Positive,Dip n dip,Dip & dip | Dalma Mall,3,False,51.6873147826623
+No Results,"Plaka, Athens",Γιασεμί,29,False,1451.54192019571
+No Results,"Museum Batak, Pulau Samosir, Sumatera Utara, Indonesia",Museum Batak,0,False,105185.149514409
+False Positive,"Bali, Indonesia",Gorge bali swing,3,True,18483.4036307495
+False Positive,Belgravia,Elizabeth Street,6,False,512.723815206739
+False Positive,Circular Quay,Guylian Belgian Chocolate Café,2,False,976.333580846239
+False Positive,Taman Sari Yogyakarta,Taman Sari Water Castle,28,False,77.0043312935963
+No Results,"Borobudur Temple,Indonesia",Candi Borobudur (Borobudur Temple) (Candi Borobudur),0,False,3120754.36397414
+No Results,Dinefwr Park National Nature Reserve,Dinefwr Park And Castle,0,False,356.557469272891
+No Results,Ullswater The Lake District,Lake Ullswater,0,False,2655.95066693032
+No Results,Grupo Famiglia Nino,Nino Cucina & Vino,3,False,112.049811563407
+No Results,"South Kensington, Central London",South Kensington,47,False,753.099471304345
+No Results,Notting Hill London,Notting Hill,0,False,963175.57243466
+No Results,St Pauls Catherderal,St Paul's Cathedral,68,False,9.12193010450278
+No Results,St. Pancras Renaissance Hotel London,St. Pancras Renaissance Hotel London,5,False,659.472283913363
+False Positive,"Angel, London",Camden Passage,79,False,435.152039281457
+False Positive,Muswell Hill,Muswell Hill,3,False,615.741953394763
+False Positive,Westminster,Westminster Bridge,33,True,1002.75915493841
+No Results,Picadilly Circus,Piccadilly Circus,0,False,19701.1484304726
+False Positive,Whaley Bridge,The Bridge Bakehouse,9,False,36.7420422435414
+No Results,Richmond Park,Richmond Park,0,False,1186.28064674586
+False Positive,Waldorf Astoria Dubai International Financial Centre,waldorf astoria difc,6,False,107.70190549256
+No Results,Mariana -MG,Mariana,10,False,72937.2568354063
+False Positive,Ouro Preto,Ouro Preto,3,False,1192.48560979215
+False Positive,"Tiradentes, Minas Gerais",Tiradentes,14,False,616.21944119248
+No Results,G&#252;m&#252;&#351;l&#252;k,G&#252;m&#252;&#351;l&#252;k,0,False,14483.78533709
+False Positive,Mount Street Mayfair London,CELINE MOUNT STREET LONDON,133,False,222.217406574767
+False Positive,Old London Road- Kingston,Old London Road,38,False,449.666322503091
+No Results,foreverrosecafe,Forever Rose Cafe,0,False,2468.54186765674
+No Results,"Tsiliv&#237;s, Zakinthos, Greece",Admiral Pool Tsilivis Zakinthos,0,False,2213.88082709297
+No Results,Esta&#231;&#227;o da Luz,Esta&#231;ao Da Luz,1,False,19926.972175325
+False Positive,Forever Rose London,Forever Rose Cafe,1,False,3762.40991059959
+No Results,Frutaria Sao Paulo - Jardins,Mercure S&#227;o Paulo Jardins,4,False,746.483547673582
+No Results,"Zona Arqueol&#243;gica Uxmal, Yucatan",Zona Arqueol&#243;gica de Uxmal,1,False,5.5322704683702
+No Results,Santiago Nuevo Leon - Pueblos Magicos,Santiago,0,False,7503.31191015047
+No Results,Mamma Mia,Mamma Mia,0,False,559.606774612036
+False Positive,"Garment District, New York City",Hyatt Place New York City/Times Square,39,False,251.086064672922
+No Results,Sushi Cupcake,sticks'n'sushi,0,False,275.624692615722
+No Results,The Avenue Cookery School,The Avenue Cookery School,2,False,1452.7939595222
+No Results,Cape Le Grand National Park,Cape Le Grand,0,False,13933.0280434422
+No Results,Duntrune Castle,Not_In_DB,0,False,
+No Results,Mungo National Park,Mungo National Park,0,False,7893.87107503821
+No Results,Martin Luther King Jr Educational Complex,Not_In_DB,0,False,
+No Results,LPM Restaurant &#38; Bar,La Petite Maison,19,False,45.2454626716302
+No Results,Len&#231;&#243;is Maranhenses,Len&#231;&#243;is Maranhenses,0,False,141110.978569437
+No Results,"Cozumel, Quintana Roo, Mexico.",Playa del Carmen,0,False,648.154825129548
+No Results,"Zona Arqueol&#243;gica Yaxchilan, Chiapas.",Not_In_DB,0,False,
+No Results,"Castillo de Edward James, Xilitla, San Luis Potos&#237;, M&#233;xico",Not_In_DB,0,False,
+No Results,CDMX. Centro Hist&#243;rico.,Centro Histórico,87,False,289.270804545253
+No Results,"Posillipo, Napoli",Posillipo,0,False,561.622269480795
+No Results,"Chich&#233;n-Itz&#225;, Yucatan, Mexico",Not_In_DB,0,False,
+No Results,Sky Zone Covina CA,Sky Zone Trampoline Park - Covina,2,False,6.51608160413165
+No Results,Osteria Mastro Titta -Ariccia,Not_In_DB,0,False,
+No Results,Carbona&#39;,Not_In_DB,0,False,
+No Results,Pink Mill,Not_In_DB,0,False,
+No Results,Bar Le Sirene,Bar Le Sirene,5,False,2663.89368944403
+False Positive,Downtown Dubai,Souk Al Bahar Bridge,107,False,239.370773223161
+No Results,Hatta Mountains,Hatta's mountains,0,False,103810.2615161
+No Results,South Dakota,South Dakota,0,False,18994.5474929801
+No Results,Platinum Heritage Dubai,Platinum Heritage,0,False,1595.014925355
+False Positive,"St Edward&#39;s Church, Stow-on-the-Wold",St. Edward's Church,12,False,17.6460751056399
+No Results,Al Qassim Province Saudi Arabia,Al Qassim Region (&#1605;&#1606;&#1591;&#1602;&#1577; &#1575;&#1604;&#1602;&#1589;&#1610;&#1605;),0,False,340400.691922394
+No Results,"Cenote Azul, Quintana Roo, Mexico",Chetumal,0,False,18617.1528037707
+No Results,Chabl&#233;,Chablé Resort & Spa,1,False,91.0162752586264
+False Positive,"Las Coloradas, Yucat&#225;n","Las Coloradas, Yuctatan.",3,False,58940.6909718935
+No Results,Valladolid Yucat&#225;n Pueblo M&#225;gico,Valladolid,3,False,11.153764479289
+No Results,Cenote Mucuych&#233;,Not_In_DB,0,False,
+False Positive,Las Coloradas Yucatan Mexico,"Las Coloradas, Yucatán",3,False,10874.303881171
+No Results,Cenotes Hacienda Mucuych&#233;,Hacienda Mucuyche,2,False,53.768541376585
+False Positive,The Dubai Mall,The Dubai Mall (دبي مول),271,True,60.3084622602837
+No Results,Hot Air Balloon Dubai,Dubai Hot Air Ballon Flight,1,False,275.30453997093
+No Results,Jollibee,Not_In_DB,0,True,
+False Positive,"Belgrade, Serbia",Belgrade (Београд),22,False,704.008952321747
+No Results,Koko Bay,Koko Bay,0,False,467.987043697123
+No Results,Glas-Allt-Shiel,Glas-Allt-Shiel,0,False,4093.35780654061
+False Positive,Even Yehuda,Not_In_DB,1,False,
+No Results,Calaveras Big Trees State Park,Calaveras Big Trees State Park,0,False,1628.60225496811
+No Results,Tehachapi Mountain Park,Tehachapi Mountain Park,0,False,674.008437558737
+No Results,Muangboran the Ancient City,Not_In_DB,1,False,
+No Results,New Mexico,New Mexico,0,False,32101.375035261
+False Positive,Goldfish Sushi &#38; Yakitori,Not_In_DB,1,False,
+No Results,Chable Yucat&#225;n,Chablé Resort & Spa,0,False,3831.95011664746
+No Results,Dana Point Sea Cave,Not_In_DB,15,False,
+No Results,Mount Baker Wilderness,Mount Baker Theatre,0,False,53132.3398463771
+No Results,The Red Duck,Not_In_DB,46,False,
+False Positive,"St James&#39;s Hotel and Club, London",St James's Palace,12,False,293.022027689343
+No Results,"The Wave, Arizona",The Wave,2,False,451.520977481662
+No Results,Pal&#230;tte,Pal&#230;tte,1,False,5.91719750448376
+No Results,Australia,Australia,0,True,14501645.1951447
+False Positive,"New York, New York",New York Supreme Court,124,True,402.803568148246
+False Positive,Eggslut UK,Not_In_DB,5,False,
+No Results,"Canaves Oia, Luxury Resorts and Villas, Santorini",Canaves Oia,0,False,81.9442286083215
+False Positive,Dubai Gold Souk,Dubai City of Gold (سوق الذهب),33,False,159.775660930713
+No Results,Dubai Creek Abra,Dubai Creek,3,False,1388.25798424555
+False Positive,Kite Beach Dubai,Kite Beach Dubai,10,False,475.294169715415
+False Positive,Bluewaters Island,Bluewater Island,7,False,858.234086494889
+False Positive,"Atlantis, The Palm",Playground,45,False,271.173654523615
+False Positive,Dubai Parks and Resorts,Dubai Parks & Resorts,4,False,599.078312536434
+No Results,Japan,キラ&amap;#12513;キJAPAN,0,True,20370.338326027
+False Positive,"Venice, Italy",Venice,32,False,907.086364390901
+No Results,"Utah, USA",BSA Utah National Parks Council,5,False,186.70174364402
+No Results,Hotell Utsikten Geiranger,Classic Norway Hotel Utsikten,1,False,18.453719610854
+False Positive,East Borneo,Eastern Borneo,3,False,462.675210984731
+False Positive,"Bari, Italy","Bari,Italy",12,False,2377.78571945567
+No Results,Once Upon A Time on the Orient Express,Once Upon A Time on The Orient Express,0,False,446.682056613613
+No Results,Puerto Rico,Puerto Rico Premium Outlets,0,True,21418.9260460305
+No Results,"Lo&#237;za, Puerto Rico",Loiza,0,False,1609.03926855099
+No Results,"Gu&#225;nica, Puerto Rico",Not_In_DB,1,False,
+No Results,&#34;Old San Juan Pueto Rico.,Old San Juan (Viejo San Juan),32,False,52.0928313247117
+No Results,"Rinc&#243;n, Puerto Rico",Rincón Beach,23,False,541.888541805965
+False Positive,"Isabela, Puerto Rico",DXC Puerto Rico HQ,12,False,2462.95956468392
+No Results,Crash Boat Aguadilla,Playa Crash Boat / Crash Boat Beach,1,False,29.6208167955808
+No Results,Anmyeon Island,Not_In_DB,0,False,
+No Results,"Kabigan Falls Pagudpud, Ilocos Norte",Not_In_DB,0,False,
+No Results,Al Warsan Nursery,Warsan Plants & Flowers Nursery,0,False,20998.8173036595
+No Results,Brunswick Park,Not_In_DB,3,False,
+No Results,Muswell Hill London N10,Muswell Hill,46,False,141.050899581097
+No Results,Montserrat (mountain),Muntanya de Montserrat,0,True,2538.35438527316
+False Positive,Bunkers del carmel,Canons del Carmel,7,False,14.5493414092888
+False Positive,Pulteney Bridge Flowers,Not_In_DB,16,False,
+False Positive,"Rye, East Sussex",Rye,49,False,249.735930546847
+No Results,Moyses Stevens Flowers,Moyses Stevens,0,False,9373.77856196142
+No Results,Montserrat,Montserrat,0,True,6630326.78334935
+False Positive,"Porto, Portugal",Praça da Ribeira,51,False,1090.83848028118
+False Positive,Santo Ildefonso,Igreja de Santo Ildefonso,3,False,793.408282358445
+No Results,Pal&#225;cio De Queluz,Queluz National Palace (Palácio Nacional de Queluz),0,False,1253.25598380202
+No Results,Palace of Queluz,Queluz National Palace (Palácio Nacional de Queluz),6,False,24.0149034228529
+No Results,Esta&#231;&#227;o Rossio,Rossio Train Station (Estação Ferroviária do Rossio),52,False,241.664075250631
+No Results,Pra&#231;a do Com&#233;rcio,Praça do Comércio (Terreiro do Paço),6,False,2060.09133894973
+No Results,"Lisse, Netherlands",Amsterdam,0,False,896.687920607023
+No Results,7th arrondissement of Paris,7e arrondissement â Palais Bourbon,6,False,246.380478017003
+False Positive,"Amsterdam, Netherlands","Kloveniersburgwal 38 /HS, 1012 CW Amsterdam, Netherlands",247,True,619.436593743413
