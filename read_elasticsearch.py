@@ -27,7 +27,7 @@ class EsToCsv():
                     count = count + 1
 
                 csv_file.writerow(data.values())
-        
+
 
 
 
