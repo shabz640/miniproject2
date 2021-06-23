@@ -1,14 +1,21 @@
 #!/usr/bin/python3
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import scan
+from configparser import ConfigParser
+import logging
 import csv
 
 class EsToCsv():
-    def __init__(self, index_name, csv_filename):
-        self.index_name = index_name
-        self.csv_filename = csv_filename
+    def __init__(self):
+        parser = ConfigParser()
+        parser.read("variables.conf")
+        self.index_name = parser.get("config", "index_name")
+        self.csv_filename = parser.get("config", "csv_filename")
+        dest_log = parser.get("config", "dest_log")
         self.es_client = Elasticsearch()
         self.csv_file = []
+        logging.basicConfig(filename=dest_log, level=logging.WARNING,
+                            format='%(asctime)s:%(levelname)s:%(message)s')
 
     def upload_json(self):
         docs = []
@@ -27,7 +34,6 @@ class EsToCsv():
                     count = count + 1
 
                 csv_file.writerow(data.values())
-
 
 
 
