@@ -4,16 +4,15 @@ from elasticsearch.helpers import scan
 from configparser import ConfigParser
 import logging
 import csv
+from read_config import ReadConfig
 
 class EsToCsv():
-    def __init__(self):
-        parser = ConfigParser()
-        parser.read("variables.conf")
-        self.index_name = parser.get("config", "index_name")
-        self.csv_filename = parser.get("config", "csv_filename")
-        dest_log = parser.get("config", "dest_log")
+    def __init__(self, index_name, csv_fileename, dest_log):
+        config_read = ReadConfig()
         self.es_client = Elasticsearch()
         self.csv_file = []
+        self.index_name = index_name
+        self.csv_filename = csv_fileename
         logging.basicConfig(filename=dest_log, level=logging.WARNING,
                             format='%(asctime)s:%(levelname)s:%(message)s')
 

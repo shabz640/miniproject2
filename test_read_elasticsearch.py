@@ -10,7 +10,7 @@ def test_read_elasticsearch():
     if os.path.exists(csv_filename):
         os.remove(csv_filename)
 
-    es_csv = EsToCsv()
+    es_csv = EsToCsv(index_name, csv_filename, dest_log='ipl.log')
     es_csv.upload_json()
     file = open(csv_filename)
     reader = csv.reader(file)
