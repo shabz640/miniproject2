@@ -5,8 +5,8 @@ import os
 
 def test_read_elasticsearch():
 
-    index_name = "data"
-    csv_filename = "my_data.csv"
+    index_name = "ipl-deliveries"
+    csv_filename = "deliveries.csv"
     if os.path.exists(csv_filename):
         os.remove(csv_filename)
 
@@ -15,7 +15,7 @@ def test_read_elasticsearch():
     file = open(csv_filename)
     reader = csv.reader(file)
     lines = len(list(reader))
-    assert lines == 289
+    assert lines == 179079
 
 if __name__ == '__main__':
     unittest.main()
