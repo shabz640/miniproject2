@@ -5,12 +5,6 @@ from elasticsearch import ElasticsearchException
 from elasticsearch import Elasticsearch
 import sys
 
-class PreCheckException(Exception):
-    pass
-
-class IndexException(PreCheckException):
-    pass
-
 es_client = Elasticsearch(hosts=(["localhost"]))
 
 config_file = "config_file.conf"
