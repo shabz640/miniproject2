@@ -31,28 +31,9 @@ index_name = my_list[0]
 csv_file = my_list[1]
 dest_log = my_list[2]
 
-
-try:
-    if not es_client.indices.exists(index_name):
-        raise IndexException
-except IndexException:
-    print("Index not Found")
-    sys.exit()
-
 try:
     es_csv = EsToCsv(index_name, csv_file, dest_log)
     es_csv.upload_json()
 except ElasticsearchException as es:
     print(es)
     sys.exit()
-
-
-
-
-
-
-
-
-
-
-
