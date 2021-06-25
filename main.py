@@ -22,7 +22,9 @@ except FileNotFoundError:
     print("Config File Doesn't exist")
     sys.exit()
 except:
-    print("Some other File related Error")
+    print("Unexpected Error:", sys.exc_info())
+    sys.exit()
+
 
 read_file = ReadConfig()
 
