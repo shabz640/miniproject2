@@ -9,7 +9,7 @@ from read_config import ReadConfig
 
 class EsToCsv():
     def __init__(self, index_name, csv_file_name, dest_log):
-        config_read = ReadConfig()
+        #config_read = ReadConfig()
         self.es_client = Elasticsearch(hosts=["localhost"])
         self.csv_file = []
         self.index_name = index_name

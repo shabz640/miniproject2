@@ -6,7 +6,7 @@ from elasticsearch import Elasticsearch
 import sys
 
 es_client = Elasticsearch(hosts=(["localhost"]))
-read_file = ReadConfig()
+
 
 config_file = "config_file.conf"
 
@@ -20,13 +20,11 @@ except:
     print("Unexpected Error:", sys.exc_info())
     sys.exit()
 
+config = ReadConfig(config_file)
 
-
-
-my_list = read_file.read_config(config_file)
-index_name = my_list[0]
-csv_file = my_list[1]
-dest_log = my_list[2]
+index_name = config.get_config("config", "index_name")
+csv_file = config.get_config("config", "csv_filename")
+dest_log = config.get_config("config", "dest_log")
 
 with open(csv_file, mode ='r') as file:
     data = file.readlines()
