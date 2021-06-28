@@ -1,4 +1,4 @@
-import unittest
+import pytest
 from read_elasticsearch import EsToCsv
 import csv
 import os
@@ -18,4 +18,4 @@ def test_read_elasticsearch():
     assert lines == 179079
 
 if __name__ == '__main__':
-    unittest.main()
+    pytest.main()

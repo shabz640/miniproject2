@@ -28,9 +28,13 @@ index_name = my_list[0]
 csv_file = my_list[1]
 dest_log = my_list[2]
 
+with open(csv_file, mode ='r') as file:
+    data = file.readlines()
+lastRow = data[-1].split(",")[0]
+
 try:
     es_csv = EsToCsv(index_name, csv_file, dest_log)
-    es_csv.upload_json()
+    es_csv.upload_json1(lastRow)
 except ElasticsearchException as es:
     print(es)
     sys.exit()
