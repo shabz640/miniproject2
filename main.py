@@ -2,10 +2,10 @@
 from read_elasticsearch import EsToCsv
 from read_config import ReadConfig
 from elasticsearch import ElasticsearchException
-from elasticsearch import Elasticsearch
+from exceptions import IndexException
 import sys
+import os
 
-es_client = Elasticsearch(hosts=(["localhost"]))
 config_file = "config_file.conf"
 
 
@@ -21,13 +21,28 @@ except:
 
 config = ReadConfig(config_file)
 
+
 index_name = config.get_config("config", "index_name")
 csv_file = config.get_config("config", "csv_filename")
 dest_log = config.get_config("config", "dest_log")
+host_name = config.get_config("config", "host")
+
+es_csv = EsToCsv(index_name, csv_file, dest_log, host_name)
+try:
+    es_csv.index_check()
+except IndexException:
+    print("Error: Index not found")
+    sys.exit()
 
 try:
-    es_csv = EsToCsv(index_name, csv_file, dest_log)
-    es_csv.upload_json()
+
+    if os.path.exists(csv_file):
+        with open(csv_file, mode='r') as file:
+            data = file.readlines()
+        lastRow = data[-1].split(",")[0]
+        es_csv.upload_json1(lastRow)
+    else:
+        es_csv.upload_json()
 except ElasticsearchException as es:
     print(es)
     sys.exit()
