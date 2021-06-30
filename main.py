@@ -8,44 +8,33 @@ import os
 
 config_file = "config_file.conf"
 
-
-try:
-    f = open(config_file)
-    f.close()
-except FileNotFoundError:
-    print("Config File Doesn't exist")
-    sys.exit()
-except:
-    print("Unexpected Error:", sys.exc_info())
-    sys.exit()
-
 config = ReadConfig(config_file)
-
-
 index_name = config.get_config("config", "index_name")
 csv_file = config.get_config("config", "csv_filename")
 dest_log = config.get_config("config", "dest_log")
 host_name = config.get_config("config", "host")
 
-es_csv = EsToCsv(index_name, csv_file, dest_log, host_name)
 try:
-    es_csv.index_check()
+    es_csv = EsToCsv(index_name, csv_file, dest_log, host_name)
 except IndexException:
     print("Error: Index not found")
     sys.exit()
 
 try:
-
+    last_id = 0
     if os.path.exists(csv_file):
-        with open(csv_file, mode='r') as file:
-            data = file.readlines()
-        lastRow = data[-1].split(",")[0]
-        es_csv.upload_json1(lastRow)
-    else:
-        es_csv.upload_json()
+        for row in open(csv_file):
+            last_id = last_id + 1
+
+    es_csv.upload_json(last_id)
+
 except ElasticsearchException as es:
     print(es)
     sys.exit()
 except:
     print(sys.exc_info())
     sys.exit()
+
+
+
+
